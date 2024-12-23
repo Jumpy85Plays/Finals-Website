@@ -1,0 +1,27 @@
+/* Event card specific styles */
+@layer base {
+  .event-card {
+    @apply relative overflow-hidden rounded-xl p-6 transition-all duration-300 hover:shadow-lg glass-card;
+  }
+
+  .event-card::before {
+    content: '';
+    @apply absolute inset-0 opacity-10 transition-opacity duration-300;
+  }
+
+  .event-card:hover::before {
+    @apply opacity-20;
+  }
+
+  .sports-card::before {
+    background-color: theme('colors.event.sports');
+  }
+
+  .cultural-card::before {
+    background-color: theme('colors.event.cultural');
+  }
+
+  .academic-card::before {
+    background-color: theme('colors.event.academic');
+  }
+}

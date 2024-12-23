@@ -1,0 +1,24 @@
+/* Dark mode theme variables */
+@layer base {
+  .dark {
+    --background: 230 25% 12%;
+    --foreground: 210 40% 98%;
+    --card: 230 25% 15%;
+    --card-foreground: 210 40% 98%;
+    --popover: 230 25% 15%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 199 89% 48%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 191 97% 77%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 230 25% 20%;
+    --muted-foreground: 215 20% 75%;
+    --accent: 191 97% 77%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 230 25% 25%;
+    --input: 230 25% 25%;
+    --ring: 191 97% 77%;
+  }
+}

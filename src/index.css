@@ -1,0 +1,6 @@
+/* Main stylesheet that imports all modular CSS files */
+@import './styles/base.css';
+@import './styles/dark-mode.css';
+@import './styles/components.css';
+@import './styles/utilities.css';
+@import './styles/event-cards.css';

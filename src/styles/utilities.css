@@ -1,0 +1,42 @@
+/* Utility classes and effects */
+@layer base {
+  /* Card styles */
+  .glass-card {
+    @apply bg-card/30 backdrop-blur-md border border-white/10 shadow-lg;
+  }
+
+  /* Form elements */
+  label {
+    @apply text-white/90 font-medium tracking-wide;
+    text-shadow: 0 0 8px rgba(34, 211, 238, 0.2);
+  }
+
+  input, select, textarea {
+    @apply bg-muted/50 border-input/50 text-white placeholder:text-white/50;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+  }
+
+  button {
+    @apply transition-all duration-300 font-medium tracking-wide;
+    text-shadow: 0 0 8px rgba(34, 211, 238, 0.3);
+  }
+
+  /* Neon effects */
+  .neon-text {
+    @apply bg-gradient-to-r from-neon-blue to-neon-cyan bg-clip-text text-transparent font-semibold;
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.4);
+  }
+
+  .neon-border {
+    @apply border border-neon-cyan/30 shadow-[0_0_15px_rgba(34,211,238,0.3)];
+  }
+
+  /* Animation classes */
+  .fade-in {
+    @apply animate-fadeIn;
+  }
+
+  .slide-in {
+    @apply animate-slideIn;
+  }
+}
